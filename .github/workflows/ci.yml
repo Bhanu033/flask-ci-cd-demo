@@ -26,6 +26,7 @@ jobs:
         else
           echo "requirements.txt not found. Skipping dependency installation."
         fi
+
     - name: Run app (for demo)
       run: |
         python app.py
