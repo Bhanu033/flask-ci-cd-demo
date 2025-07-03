@@ -29,4 +29,6 @@ jobs:
 
     - name: Run app (for demo)
       run: |
-        python app.py
+        python app.py &
+        sleep 10
+        echo "App ran for 10 seconds and exited."
